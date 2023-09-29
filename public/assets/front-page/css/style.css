@@ -1,0 +1,412 @@
+/* Styles for the pagination container */
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Styles for the pagination links */
+.pagination a {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-right: 5px;
+  text-decoration: none;
+  background-color: #7e0404;
+  color: #cfc9c9;
+  border-radius: 4px;
+}
+
+/* Styles for the active page link */
+.pagination .active {
+  /* background-color: #08c9eb; */
+  color: #fffcfc;
+}
+
+/* ---------------------header start----------------- */
+
+
+.alignitem {
+  align-items: center;
+}
+
+.alignitem a {
+  color: rgb(173, 3, 3);
+}
+
+
+
+.disply {
+  margin: auto;
+  width: 500px;
+
+}
+
+.searchbox {
+  width: 400px;
+  border-radius: 4px;
+  height: 40px;
+  padding: 20px;
+  margin-right: 10px;
+  border: 0.5px solid rgb(212, 212, 212);
+  align-items: center;
+}
+
+.button {
+  border-radius: 4px;
+  padding: 9px;
+  border: 0.5px solid rgb(212, 212, 212);
+
+}
+
+.loginside {
+  color: rgb(173, 3, 3);
+  margin-top: 10px;
+  width: 33% !important;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+
+}
+
+/* -----------------nav start---------------- */
+.log {
+  padding: 5px;
+  text-decoration: none;
+  font-size: 17px;
+  /* border: 0.8px solid #CFD0D2; */
+  border-radius: 4px;
+  margin-left: 10px;
+  color: rgb(173, 3, 3);
+}
+
+.log:hover,
+.alignitem a:hover,
+.loginside:hover {
+  font-weight: 600px;
+  color: rgb(177, 3, 3);
+}
+
+.conteinernav {
+  /* border-top: 1px solid #CFD0D2; */
+  padding: 10px;
+ 
+}
+
+/* -----------------------------------nav end--------------------- */
+
+/* -------------------------------------form start------------------------- */
+.formmargin {
+  width: 500px;
+  margin-top: 50px;
+  box-shadow: 0px 1px 10px 4px #bec1c5;
+  margin-bottom: 50px;
+
+}
+
+input[type="submit"] {
+  /* background-color: #CED4DA; */
+  border: 1px solid #CED4DA;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+}
+
+input[type="submit"]:hover {
+  /* box-shadow: 0px 1px 1px 3px #C2DBFE; */
+  box-shadow: 0px 1px 10px 4px #bec1c5;
+
+}
+
+/* .widthh{
+  width: 100%;
+ 
+}
+.width1{
+  margin-right: 5px;
+}
+.width2{
+  margin-right: 5px;
+} */
+.text {
+  text-align: center;
+  padding: 5px 0 5px 0;
+  margin-bottom: 5px;
+}
+
+/* ----------------------------------------form end-------------------------------- */
+
+/* ------------------------------footer start--------------------------------------------- */
+.Copyright {
+  text-align: center;
+}
+
+.fcolor {
+  background-color: #ffffff;
+}
+
+.flog {
+  position: relative;
+}
+
+.flog::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0px;
+  height: 2px;
+  background-color: rgb(135, 10, 10);
+}
+
+.flog:hover::after {
+  width: 50%;
+  transition: .5s;
+}
+
+.flog:hover {
+  color: rgb(105, 6, 6);
+}
+.fmargin{
+  margin-left: 60px!important;
+  
+}
+.fotter-text li{
+  list-style-type: none;
+}
+.fotter-text a{
+ text-decoration: none;
+}
+/* -------------------------------heaser 2--------------------------------- */
+.header h1 {
+  height: 50px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.auth {
+
+  list-style: none;
+
+}
+
+.auth a {
+  display: inline;
+  text-decoration: none;
+  color: rgb(173, 3, 3);
+  padding: 5px;
+  margin: 5px;
+}
+
+/* ------------topnav------------------ */
+.topnav li{
+  list-style: none;
+
+
+
+}
+
+.itemline{
+
+  text-decoration: none;
+  color: rgb(173, 3, 3);
+  padding: 5px;
+  margin: 5px;
+
+}
+
+/* -----------------------searchform_------------ */
+.searchform {
+  margin-right: 5px;
+}
+
+.buttoncolor {
+  color: rgb(173, 3, 3) !important;
+  border: 1px solid rgb(173, 3, 3) !important;
+
+}
+
+.buttoncolor:hover {
+  border: 2px solid rgb(173, 3, 3) !important;
+
+}
+
+/* ----------------------underline----------- */
+.itemline {
+  text-decoration: none;
+  color: rgb(173, 3, 3);
+}
+
+.itemline {
+  position: relative;
+}
+
+.itemline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0px;
+  height: 2px;
+  background-color: rgb(173, 3, 3);
+}
+
+.itemline:hover::after {
+  width: 100%;
+  transition: .5s;
+}
+
+.itemline:hover {
+  color: rgb(173, 3, 3);
+  font-size: 16.3PX;
+}
+
+/* ------------------------nav_color------------------ */
+.nav_color {
+  /* box-shadow: rgba(72, 72, 72, 0.3) 0px 2px 40px, rgba(157, 155, 155, 0.22) 0px 10px 10px; */
+  box-shadow: rgba(72, 72, 72, 0.3) -0px 0px 30px, rgba(157, 155, 155, 0.22) 0px 0px 0px;
+
+}
+
+.auth a:hover {
+  font-weight: 600;
+  color: rgb(173, 3, 3);
+  /* background-color:#e2e2e2; */
+  border: 1px solid rgb(173, 3, 3);
+  border-radius: 5px;
+  padding: 7px;
+}
+
+/* ---------------------------drop_devide-------------------------- */
+.drop_devide {
+  width: 500px;
+}
+
+.devide_border {
+  border-right: 1px solid rgb(94, 94, 94);
+}
+
+/* -----------------------------------allpbutton--------------------------- */
+.allpbutton {
+  background-color: rgb(133, 49, 49) !important;
+  color: azure !important;
+}
+
+/* ----------------------------------------------single_view----------------------- */
+.single_page {
+  margin: 50px 0px 50px 0px;
+}
+
+.image_section {
+  border-right: 0.2px solid rgb(156, 154, 154);
+
+}
+
+.image_section img {
+  margin-left: 50px;
+
+}
+
+.pbody {
+  padding-left: 20px;
+}
+
+/* -------------------------------all-view-------------------------------------- */
+.pall_container {
+  background-color: #efefef;
+}
+
+.p_card {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(6, 2, 2, 0.2) 0px 20px 20px -7px;
+}
+
+.p_card:hover {
+  box-shadow: rgba(97, 96, 96, 0.2) 0px 20px 20px -7px;}
+
+.ptitle {
+  padding: 20px;
+}
+/* --------------------------------cart-icon------------------------- */
+.cart-icon{
+  margin-left: 15px;
+  color: #7e0404;
+  font-size: 20px;
+}
+.badge{
+  background-color: #7e0404;
+  margin-left: 10px;
+}
+/* -----------------------------------home-view---------------------------- */
+.bannerimage1{
+  width:964px;
+  height:450px;
+  margin-left:10px;
+  
+}
+
+.bannerimage2{
+ width:440px;
+ height:210px;
+ margin-bottom:5px;
+}
+.banner3{
+ margin-top:25px;
+}
+.shipping-box{
+  padding: 5px;
+  font-size: 35px;
+}
+.shipp-text{
+  
+  margin-top: 5px;
+  text-decoration: none;
+  color: black;
+}
+.swiper{
+  
+  padding: 5px;
+  border: 1px solid rgb(235, 233, 233);
+  margin: 20px;
+  border-radius: 5px;
+}
+/* -----------------------phome--------------------------------------- */
+.newproduct{
+  /* margin-top: 10px; */
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  
+}
+.border{
+  border-radius: 2px;
+  box-shadow: rgba(72, 72, 72, 0.3) -0px 0px 30px, rgba(157, 155, 155, 0.22) 0px 0px 0px;
+  
+}
+.border:hover {
+  cursor: pointer;
+  transform: scale(0.97);
+  transition: transform 0.4s ease;
+}
+/* -------------------------------------footer--------------------------------- */
+.footer1{
+  background-color: #7e0404;
+  
+}
+
+/* ------------------------------shariview----------------------------------------------- */
+.shari{
+  padding: 20px 0 10px 0;
+}
+.shari a{
+  color:rgb(105, 6, 6);
+  text-decoration: none;
+  font-size: 20px;
+}
+.abc{
+  color:rgb(105, 6, 6);
+  text-decoration: none;
+  font-size: 20px;
+}

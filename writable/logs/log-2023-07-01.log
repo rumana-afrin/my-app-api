@@ -1,0 +1,32 @@
+INFO - 2023-07-01 12:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-01 12:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-01 12:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-01 12:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-01 12:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-01 13:00:45 --> mysqli_sql_exception: Table 'ci_ecommerce.products' doesn't exist in D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `product...', 0)
+#1 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 D:\xampp\htdocs\ruma\codeigniter\my-app-api\app\Controllers\CartProduct.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CodeIgniter.php(934): App\Controllers\CartProduct->index()
+#6 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartProduct))
+#7 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ruma\codeigniter\my-app-api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-01 13:00:45 --> Table 'ci_ecommerce.products' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `products`.*
+FROM `products`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.*
+FROM `products`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.*
+FROM `products`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*
+FROM `products`', [], false)
+ 5 APPPATH\Controllers\CartProduct.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CartProduct->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartProduct))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

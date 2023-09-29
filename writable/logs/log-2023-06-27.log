@@ -1,0 +1,171 @@
+INFO - 2023-06-27 05:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 05:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 05:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 05:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 05:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-27 08:13:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL DEFAULT NULL,
+	CONSTRAINT `pk_customers` PRIMARY KEY(`id`)
+) DEFAULT CHA...' at line 8 in D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `c...', 0)
+#1 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 D:\xampp\htdocs\ruma\codeigniter\my-app-api\app\Database\Migrations\2023-06-27-070941_Customer.php(48): CodeIgniter\Database\Forge->createTable('customers')
+#5 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(877): App\Database\Migrations\Customer->up()
+#6 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\ruma\codeigniter\my-app-api\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-27 08:14:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL DEFAULT NULL,
+	CONSTRAINT `pk_customers` PRIMARY KEY(`id`)
+) DEFAULT CHA...' at line 8 in D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `c...', 0)
+#1 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 D:\xampp\htdocs\ruma\codeigniter\my-app-api\app\Database\Migrations\2023-06-27-070941_Customer.php(47): CodeIgniter\Database\Forge->createTable('customers')
+#5 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(877): App\Database\Migrations\Customer->up()
+#6 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\ruma\codeigniter\my-app-api\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-27 08:17:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	CONSTRAINT `pk_customers` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SE...' at line 8 in D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `c...', 0)
+#1 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 D:\xampp\htdocs\ruma\codeigniter\my-app-api\app\Database\Migrations\2023-06-27-070941_Customer.php(48): CodeIgniter\Database\Forge->createTable('customers')
+#5 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(877): App\Database\Migrations\Customer->up()
+#6 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\ruma\codeigniter\my-app-api\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-27 08:21:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	CONSTRAINT `pk_customers` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SE...' at line 8 in D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `c...', 0)
+#1 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 D:\xampp\htdocs\ruma\codeigniter\my-app-api\app\Database\Migrations\2023-06-27-070941_Customer.php(48): CodeIgniter\Database\Forge->createTable('customers')
+#5 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(877): App\Database\Migrations\Customer->up()
+#6 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\ruma\codeigniter\my-app-api\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-27 08:23:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	CONSTRAINT `pk_customers` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SE...' at line 8 in D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `c...', 0)
+#1 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 D:\xampp\htdocs\ruma\codeigniter\my-app-api\app\Database\Migrations\2023-06-27-070941_Customer.php(48): CodeIgniter\Database\Forge->createTable('customers')
+#5 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(877): App\Database\Migrations\Customer->up()
+#6 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\ruma\codeigniter\my-app-api\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-27 17:50:53 --> mysqli_sql_exception: Table 'ci_add_to_cart.customer' doesn't exist in D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php(295): mysqli->query('ALTER TABLE cus...', 0)
+#1 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE cus...')
+#2 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE cus...')
+#3 D:\xampp\htdocs\ruma\codeigniter\my-app-api\app\Database\Migrations\2023-06-27-174947_AddForeignKeyToCustomerStatus.php(11): CodeIgniter\Database\BaseConnection->query('ALTER TABLE cus...')
+#4 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(877): App\Database\Migrations\AddForeignKeyToCustomerStatus->up()
+#5 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#6 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp\htdocs\ruma\codeigniter\my-app-api\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-06-27 17:52:16 --> mysqli_sql_exception: Can't create table `ci_add_to_cart`.`customers` (errno: 150 "Foreign key constraint is incorrectly formed") in D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php(295): mysqli->query('ALTER TABLE cus...', 0)
+#1 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE cus...')
+#2 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE cus...')
+#3 D:\xampp\htdocs\ruma\codeigniter\my-app-api\app\Database\Migrations\2023-06-27-174947_AddForeignKeyToCustomerStatus.php(11): CodeIgniter\Database\BaseConnection->query('ALTER TABLE cus...')
+#4 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(877): App\Database\Migrations\AddForeignKeyToCustomerStatus->up()
+#5 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#6 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 D:\xampp\htdocs\ruma\codeigniter\my-app-api\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-06-27 19:46:47 --> mysqli_sql_exception: Table 'users' already exists in D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\xampp\htdocs\ruma\codeigniter\my-app-api\app\Database\Migrations\2023-06-12-084225_Users.php(48): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(877): App\Database\Migrations\Users->up()
+#6 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 D:\xampp\htdocs\ruma\codeigniter\my-app-api\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-06-27 20:01:39 --> mysqli_sql_exception: Table 'users' already exists in D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\xampp\htdocs\ruma\codeigniter\my-app-api\app\Database\Migrations\2023-06-12-084225_Users.php(48): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(877): App\Database\Migrations\Users->up()
+#6 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\ruma\codeigniter\my-app-api\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-27 20:04:35 --> mysqli_sql_exception: Table 'users' already exists in D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\xampp\htdocs\ruma\codeigniter\my-app-api\app\Database\Migrations\2023-06-12-084225_Users.php(48): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(877): App\Database\Migrations\Users->up()
+#6 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\ruma\codeigniter\my-app-api\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-27 20:56:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNSIGNED NOT NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP...' at line 4 in D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 D:\xampp\htdocs\ruma\codeigniter\my-app-api\app\Database\Migrations\2023-06-27-204655_Order.php(47): CodeIgniter\Database\Forge->createTable('order')
+#5 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(877): App\Database\Migrations\Order->up()
+#6 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\xampp\htdocs\ruma\codeigniter\my-app-api\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\xampp\htdocs\ruma\codeigniter\my-app-api\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
